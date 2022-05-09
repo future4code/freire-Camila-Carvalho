@@ -1,0 +1,2 @@
+Aprendizados da Semana
+Nessa semana na **Labenu**, conheci um pouca mais da empresa e da proposta deles. **Aprendi** como utilizar o terminal, entreguei o desafio do Assassino do Terminal. Aprendi como utilizar o VSCode. E **surtei**, chorei e sofri e duvidei da minha capacidade com o **git**. Achei que tinha feito tudo certinho, mas me enganei e vou rever toda a aula e o material para tentar melhorar a compreensão.
