@@ -36,11 +36,6 @@
 
 // Exercício 4
 
-const pokemonInicial = prompt("Qual o seu pokemon inicial predileto?")
-
-
-
-
      
 
      
