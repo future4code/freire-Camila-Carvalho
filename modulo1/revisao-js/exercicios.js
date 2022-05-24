@@ -90,23 +90,49 @@ function classificaTriangulo(ladoA, ladoB, ladoC) {
         return "Escaleno"
     }
 }
-*/
 
+
+///////// falta fazer /////////////
 // EXERCÍCIO 10
+
 function retornaSegundoMaiorESegundoMenor(array) {
-  
+    const num = [3, 2, 1, 4, 7, 6, 5]
+    
+
+    return num
 }
 
 // EXERCÍCIO 11
 function retornaChamadaDeFilme(filme) {
-   
+    let movie = {
+        nome: 'Bastardos Inglórios',
+        ano: 2009,
+        diretor: 'Quentin Tarantino',
+        elenco: ['Brad Pitt', 'Christoph Waltz', 'Daniel Brühl', 'Mike Myers']   
+    }
+return `Venha assistir ao ${movie.nome} de ${movie.ano}, dirigido por ${movie.diretor} e estrelado por ${movie.elenco[0]}, ${movie.elenco[1]}, ${movie.elenco[2]}, ${movie.elenco[3]}`
 }
+
+*/
 
 // EXERCÍCIO 12
 function retornaPessoaAnonimizada(pessoa) {
-   
-}
+    let usuario = {
+        nome: "Astrodev",
+	    idade: 25,
+	    email: "astrodev@labenu.com.br",
+	    endereco: "Rua do Futuro, 4"
+    }
+    
+        let novoUsuario = {
+            ...usuario,
+            nome: "ANÔNIMO",
+        }
+        return `${novoUsuario.nome}, ${novoUsuario.idade},${novoUsuario.endereco}, ${novoUsuario.email} `
+    }
 
+
+/*
 // EXERCÍCIO 13A
 function retornaPessoasAutorizadas(pessoas) {
    
@@ -130,3 +156,4 @@ function retornaArrayOrdenadoAlfabeticamente(consultas) {
 // EXERCÍCIO 15B
 function retornaArrayOrdenadoPorData(consultas) {
 }
+*/
