@@ -1,0 +1,147 @@
+*{
+    margin:auto;
+    padding:auto;
+}
+
+.cabecalho{
+    background-color:black;
+    
+}
+
+body{
+    text-align: center;
+    background-color: black;
+    
+}
+
+
+.saudacao{
+    color: rgb(217, 169, 107);
+    font-size:xx-large;
+    font-family: 'Arial Narrow Bold';
+
+}
+
+
+.foto-principal{
+    max-width: fit-content;
+    opacity: 0.3;
+}
+
+
+.subtitulo{
+    color:rgb(217, 169, 107);
+    margin-bottom: 40px;
+}
+
+.titulo{
+    color:rgb(217, 169, 107);
+    margin-bottom: 40px;
+    font-size:large;
+    font-family: 'Lucida Sans Unicode';
+}
+
+.pagina-inicial{
+    font-size: large;
+    font-family:'Lucida Console';
+    color: rgb(131, 104, 157);
+    text-align: left;
+}
+
+.controle{
+    font-size: large;
+    font-family:'Lucida Console';
+    color: rgb(131, 104, 157);
+
+}
+
+.produto{
+    font-size: large;
+    font-family:'Lucida Console';
+    color: rgb(131, 104, 157);
+}
+
+.funcionarios{
+    font-size: large;
+    font-family:'Lucida Console';
+    color: rgb(131, 104, 157);
+}
+
+.mensagem{
+    font-size:larger;
+    color: antiquewhite;
+}
+
+.face{
+    width: 40px;
+}
+
+.insta{
+    width: 40px;
+}
+
+.whats{
+    width: 40px;
+}
+
+
+.titulo-controle{
+    font-size: larger;
+    color:rgb(81, 56, 25)
+}
+
+.titulo-adega{
+    font-size:x-large;
+    color:rgb(81, 56, 25)
+}
+
+.descricao{
+    font-size: large;
+    color:rgb(81, 56, 25)  
+}
+
+.preco{
+    font-size: large;
+    color:rgb(81, 56, 25)  
+}
+
+
+.quantidade{
+    font-size: large;
+    color:rgb(81, 56, 25) 
+}
+
+
+.produto1{
+    width: 100px;
+
+}
+
+.produto2{
+    width: 80px;
+
+}
+
+.produto3{
+    width: 100px;
+
+}
+
+.produto4{
+    width: 80px;
+
+}
+.produto5{
+    width: 100px;
+
+}
+
+.produto6{
+    width: 60px;
+
+}
+
+.produto7{
+    width: 60px;
+
+}
