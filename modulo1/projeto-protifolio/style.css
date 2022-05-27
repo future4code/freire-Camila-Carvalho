@@ -1,0 +1,30 @@
+*{
+    margin:auto;
+    padding:auto;
+    background-color:#a6caed;
+}
+
+/* Pagina Inicial */
+
+.texto{
+    font-family: "Georgia";
+    font-size: larger;
+    color: #17171a;
+    text-align: center;
+
+}
+.titulo{
+    text-align: center;
+}
+
+
+/* IMAGENS */
+.foto{
+    width: 120px;
+    
+}
+
+.logo-git{
+    width: 85px;
+
+}
