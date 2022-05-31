@@ -11,13 +11,14 @@ h1{
 
 header{
     background-color: mediumvioletred;
-    border-width: 20px;
-    display:flex;
-    gap: 20px;
-    flex-direction: row;
-
+    display:grid;
+    grid-template-rows: 40px;
+    grid-template-columns: 1fr 40px;
+    align-items: center;
+    padding: 0 10px;
 
 }
+
 
 
 
@@ -43,3 +44,15 @@ footer{
 .bolinho{
     width: 20px;
 }
+
+.icone{
+    width: 20px;
+    margin-bottom: 5px;
+}
+
+li{
+    background-color: #f2d0e0;
+    align-items: stretch;
+}
+
+
