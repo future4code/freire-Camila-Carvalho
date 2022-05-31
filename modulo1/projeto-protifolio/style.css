@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    background-color:#646591;
+    text-decoration: none;
+}
+
+/* Pagina Inicial */
+body {
+    font-size: 100%;
+}
+
+.cabecalho {
+    display: flex;
+    gap: 40px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.cabecalho-menu{
+    display: flex;
+    gap:30px;
+    justify-content: space-between;
+}
+
+.cabecalho-menu-item{
+    font-family: 'Righteous', cursive;
+    color:#090912;
+    font-weight:bold;
+    font-size:medium;
+
+}
+
+
+
+h1, h2 {  
+    font-size: x-large;
+    font-family: 'Righteous', cursive;
+    color:#17171a;
+    text-align: center;
+}
+
+
+
+
+.mensagem{
+    font-family: "Georgia";
+    color:#17171a;
+    font-weight: bold;
+   
+}
+
+.botao{
+    display: block;
+    margin: auto;
+    background-color: #364a7a;
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 20px;
+    color: white;
+
+}
+
+botao:hover{
+    background-color: #364a7a;
+}
+
+nav{
+    font-size: larger;
+    color: #17171a;
+    font-family: Arial;
+    text-align: center;
+    font-weight: bold;
+}
+
+.instituicoes, .habilidades, .projetos{
+    text-align:center;
+    color: beige;
+    font-weight: bold;
+    font-size: large;
+
+}
+
+/* IMAGENS */
+.foto{
+    width: 120px;
+    padding: 70px 0;
+    display:block;
+    margin: 0px auto;
+}
+
+
+.logo-git{
+    width: 85px;
+}
+
+.logo-labenu{
+    width: 120px;
+
+}
+
+.logo-ufrn{
+    width: 150px;
+    display: block;
+}
+
+
+footer{
+    text-align: center;
+    margin: 50px;
+    font-size:medium;
+}
+
+/** texto instituições**/
+p1{
+    color: #090912;
+    display:block;
+    font-size: larger;
+    margin: 20px;
+    font-family:  'Righteous', cursive;    
+}
+
+p2{ 
+    color: #090912;
+    text-align: justify;
+    display: block;
+    font-size:medium;
+    font-family:'Verdana';
+}

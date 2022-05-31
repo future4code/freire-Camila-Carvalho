@@ -1,0 +1,45 @@
+*{
+    margin:0;
+    padding: 0%;
+}
+
+
+h1{
+    font-weight: bold;
+    font-size: large;
+}
+
+header{
+    background-color: mediumvioletred;
+    border-width: 20px;
+    display:flex;
+    gap: 20px;
+    flex-direction: row;
+
+
+}
+
+
+
+
+
+
+
+.bolos{
+    border: solid rgb(119, 21, 29);
+    width: calc(100vw - 300px);
+    height: calc(100vh - 100px);
+}
+
+
+
+footer{
+    background-color: mediumvioletred;
+    font-weight: bold;
+    text-align: center;
+}
+
+/*** IMAGENS ***/
+.bolinho{
+    width: 20px;
+}
