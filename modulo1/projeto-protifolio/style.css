@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+*{
+    margin:auto;
+    padding:auto;
+    background-color:#a6caed;
+}
+
+/* Pagina Inicial */
+
+a{
+    font-family: 'Outfit', sans-serif;
+    font-size: larger;
+    text-align: center;
+
+}
+
+h1, h2 {  
+    font-size: x-large;
+    font-family: 'Righteous', cursive;
+    color:#17171a;
+    text-align: center;
+}
+
+nav{
+    margin: 25px;
+    text-align: center;
+
+
+}
+
+
+.mensagem{
+    font-family: "Georgia";
+    color: #0f2559;
+    font-weight: bold;
+   
+}
+
+.botao{
+    display: block;
+    margin: auto;
+    background-color: #364a7a;
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 20px;
+    color: white;
+
+}
+
+botao:hover{
+    background-color: #364a7a;
+}
+
+nav{
+    font-size: larger;
+    color: #17171a;
+    font-family: Arial;
+    text-align: center;
+    font-weight: bold;
+}
+
+.instituicoes, .habilidades, .projetos{
+    text-align: center;
+    color: beige;
+    font-weight: bold;
+    font-size: large;
+
+}
+
+/* IMAGENS */
+.foto{
+    width: 120px;
+    padding: 70px 0;
+    display:block;
+    margin: 0px auto;
+}
+
+
+.logo-git{
+    width: 85px;
+}
+
+.logo-labenu{
+    width: 120px;
+    display: block;
+
+}
+
+.logo-ufrn{
+    width: 150px;
+    display: block;
+}
+
+
+footer{
+    text-align: center;
+    margin: 50px;
+    font-size:medium;
+}
+
+/** texto instituições**/
+p1{
+    color: #0f2559;
+    display:block;
+    font-size: larger;
+    margin: 20px;
+    
+
+}
+
