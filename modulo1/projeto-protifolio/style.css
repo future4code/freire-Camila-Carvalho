@@ -1,6 +1,45 @@
 @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 
 *{
+
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    background-color:#646591;
+    text-decoration: none;
+}
+
+/* Pagina Inicial */
+body {
+    font-size: 100%;
+}
+
+.cabecalho {
+    display: flex;
+    gap: 40px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.cabecalho-menu{
+    display: flex;
+    gap:30px;
+    justify-content: space-between;
+}
+
+.cabecalho-menu-item{
+    font-family: 'Righteous', cursive;
+    color:#090912;
+    font-weight:bold;
+    font-size:medium;
+
+}
+
+
+
+
     margin:auto;
     padding:auto;
     background-color:#a6caed;
@@ -15,12 +54,16 @@ a{
 
 }
 
+
 h1, h2 {  
     font-size: x-large;
     font-family: 'Righteous', cursive;
     color:#17171a;
     text-align: center;
 }
+
+
+
 
 nav{
     margin: 25px;
@@ -30,9 +73,14 @@ nav{
 }
 
 
+
 .mensagem{
     font-family: "Georgia";
+
+    color:#17171a;
+
     color: #0f2559;
+
     font-weight: bold;
    
 }
@@ -62,7 +110,11 @@ nav{
 }
 
 .instituicoes, .habilidades, .projetos{
+
+    text-align:center;
+
     text-align: center;
+
     color: beige;
     font-weight: bold;
     font-size: large;
@@ -84,7 +136,10 @@ nav{
 
 .logo-labenu{
     width: 120px;
+
+
     display: block;
+
 
 }
 
@@ -102,6 +157,22 @@ footer{
 
 /** texto instituições**/
 p1{
+
+    color: #090912;
+    display:block;
+    font-size: larger;
+    margin: 20px;
+    font-family:  'Righteous', cursive;    
+}
+
+p2{ 
+    color: #090912;
+    text-align: justify;
+    display: block;
+    font-size:medium;
+    font-family:'Verdana';
+}
+
     color: #0f2559;
     display:block;
     font-size: larger;
@@ -109,4 +180,5 @@ p1{
     
 
 }
+
 

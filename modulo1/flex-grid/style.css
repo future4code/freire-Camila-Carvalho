@@ -1,0 +1,58 @@
+*{
+    margin:0;
+    padding: 0%;
+}
+
+
+h1{
+    font-weight: bold;
+    font-size: large;
+}
+
+header{
+    background-color: mediumvioletred;
+    display:grid;
+    grid-template-rows: 40px;
+    grid-template-columns: 1fr 40px;
+    align-items: center;
+    padding: 0 10px;
+
+}
+
+
+
+
+
+
+
+
+.bolos{
+    border: solid rgb(119, 21, 29);
+    width: calc(100vw - 300px);
+    height: calc(100vh - 100px);
+}
+
+
+
+footer{
+    background-color: mediumvioletred;
+    font-weight: bold;
+    text-align: center;
+}
+
+/*** IMAGENS ***/
+.bolinho{
+    width: 20px;
+}
+
+.icone{
+    width: 20px;
+    margin-bottom: 5px;
+}
+
+li{
+    background-color: #f2d0e0;
+    align-items: stretch;
+}
+
+
