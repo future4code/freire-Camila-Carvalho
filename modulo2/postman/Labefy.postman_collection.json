@@ -1,0 +1,148 @@
+{
+	"info": {
+		"_postman_id": "74e2220d-703c-4542-b723-17c3b7f71fd6",
+		"name": "Labefy",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "21555608"
+	},
+	"item": [
+		{
+			"name": "addPlaylist",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://documenter.getpostman.com/view/7549981/SztBc8eT?version=latest#62db6402-161a-4a4e-8d1b-c7117704b2fa",
+					"protocol": "https",
+					"host": [
+						"documenter",
+						"getpostman",
+						"com"
+					],
+					"path": [
+						"view",
+						"7549981",
+						"SztBc8eT"
+					],
+					"query": [
+						{
+							"key": "version",
+							"value": "latest"
+						}
+					],
+					"hash": "62db6402-161a-4a4e-8d1b-c7117704b2fa"
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "createPlaylist",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Camila-Carvalho-Freire",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"roch das antigas\" \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://us-central1-labenu-apis.cloudfunctions.net/labefy/playlists",
+					"protocol": "https",
+					"host": [
+						"us-central1-labenu-apis",
+						"cloudfunctions",
+						"net"
+					],
+					"path": [
+						"labefy",
+						"playlists"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getAllPlaylists",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "addTrackToPlaylist",
+			"protocolProfileBehavior": {
+				"disabledSystemHeaders": {
+					"connection": true,
+					"accept-encoding": true
+				}
+			},
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Camila-Carvalho-Freire",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"tiny desk\", \r\n    \"artist\": \"black pumas\",\r\n    \"url\": \"https://www.youtube.com/watch?v=TKfRm6uNx7I\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://us-central1-labenu-apis.cloudfunctions.net/labefy/playlists/:playlistId/tracks",
+					"protocol": "https",
+					"host": [
+						"us-central1-labenu-apis",
+						"cloudfunctions",
+						"net"
+					],
+					"path": [
+						"labefy",
+						"playlists",
+						":playlistId",
+						"tracks"
+					],
+					"query": [
+						{
+							"key": "",
+							"value": "",
+							"disabled": true
+						}
+					],
+					"variable": [
+						{
+							"key": "playlistId",
+							"value": "bab91310-c702-495a-89e0-3faf973d9a72"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getPlaylistTracks",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
