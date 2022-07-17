@@ -5,7 +5,7 @@ const ApplicationFormPage = () => {
     const navigate = useNavigate()
 
     const gotToEnviarForm = () =>{
-        navigate('/AppliForm')
+        navigate('/AppliForm') // VERIFICAR
     }
 
     const goBack = () =>{
@@ -14,6 +14,7 @@ const ApplicationFormPage = () => {
 
     return(
         <div>
+            <p> Formulário </p>
             <button onClick={gotToEnviarForm}>Enviar</button>
             <button onClick={goBack}>Voltar</button>
 
