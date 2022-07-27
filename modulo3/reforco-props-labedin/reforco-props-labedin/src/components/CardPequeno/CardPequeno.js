@@ -1,13 +1,17 @@
 import React from "react";
+import {LittleCard} from "./StyleCardPequeno";
+
 
 
 function CardPequeno(props) {
     return (
-        <div>
+        <LittleCard>
             <img src={ props.imagem } />
-            <p>{ props.titulo }</p>
-            <p>{ props.descricao }</p>
-        </div>
+            <strong>{ props.titulo }</strong>
+            <p>{ props.dado }</p>
+        </LittleCard>
+
+        
     )
 }
 

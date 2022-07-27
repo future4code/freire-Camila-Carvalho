@@ -1,6 +1,7 @@
 import React from 'react';
 import './StyledCardGrande.js'
 import styled from "styled-components";
+import { BigCard } from './StyledCardGrande.js';
 
 function CardGrande(props) {
     return (
