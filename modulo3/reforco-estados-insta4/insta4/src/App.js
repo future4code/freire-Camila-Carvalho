@@ -1,13 +1,54 @@
 import React, { useState } from "react";
 import styled from "styled-components";
 import Post from "./components/Post/Post";
+import Header from "./components/Header/Header";
 
 const MainContainer = styled.div`
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  background-color: #cfc2ce;
+  
+  
 `;
+
+
+const InputDiv = styled.div`
+  
+  box-shadow: #636350;
+  width: 30%;
+  display:flex;
+  flex-direction: column;
+  padding: 20px;
+  
+
+  input {
+    border-radius: 8px;
+    border: 1px solid #59429d;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    box-shadow: #454b8a;
+    height: 26px;
+    margin-bottom: 10px; 
+  }
+
+
+  button{
+    font-size: 1.2em;
+    background: #59429d;
+    border: 0;
+    margin-bottom: 1em;
+    color: #ffffff;
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+
+    
+
+  }
+ 
+
+`
 
 function App() {
   const [inputNomeUsuario, setInputNomeUsuario] = useState()
@@ -61,6 +102,8 @@ function App() {
 
     const ListaDePosts = posts.map((post, index) => {
       return (
+
+       
         <Post key={index}
         nomeUsuario={post.nomeUsuario}
         fotoUsuario={post.fotoUsuario}
@@ -69,36 +112,40 @@ function App() {
       )
     })
 
-  return (
+  return (   
     <MainContainer>
 
-    <div> 
+      <Header />
+        <InputDiv> 
 
-    <input
-      placeholder="Nome do Usuário"
-      value={inputNomeUsuario}
-      onChange={onChangeInputNomeUsuario}
-    />
+          <input
+            placeholder="Nome do Usuário"
+            value={inputNomeUsuario}
+            onChange={onChangeInputNomeUsuario}
+          />
 
-    <input
-      placeholder="Foto Usuário"
-      value={inputFotoUsuario}
-      onChange={onChangeInputFotoUsuario}
-    />
+          <input
+            placeholder="Foto Usuário"
+            value={inputFotoUsuario}
+            onChange={onChangeInputFotoUsuario}
+          />
 
-    <input
-      placeholder="Foto Post"
-      value={inputFotoPost}
-      onChange={onChangeInputFotoPost}
-    />
+          <input
+            placeholder="Foto Post"
+            value={inputFotoPost}
+            onChange={onChangeInputFotoPost}
+          />
 
-    <button onClick={addPost} >Adicionar</button>
-    </div> 
+          <button onClick={addPost} >Adicionar</button>
+        </InputDiv> 
+    
 
 
-    <div>
-    {ListaDePosts}
-    </div>
+        <div>
+          {ListaDePosts}
+        </div>
+
+          
     </MainContainer>
   );
 }
