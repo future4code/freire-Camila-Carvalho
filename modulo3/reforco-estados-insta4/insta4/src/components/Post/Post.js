@@ -10,7 +10,11 @@ const PostContainer = styled.div`
   border: 1px solid gray;
   width: 300px;
   margin-bottom: 10px;
-`;
+  border-radius: 6px;
+  border-color: #656b6e;
+  background-color: #d7dadb;
+
+`
 
 const PostHeader = styled.div`
   height: 40px;
@@ -46,13 +50,13 @@ function Post(props) {
 
   const onClickCurtida = () => {
     setCurtido(!curtido)
-    console.log("Curtiu!");
+    if (!curtido) {
+      setNumeroCurtidas(numeroCurtidas + 1)
+    } else {
+      setNumeroCurtidas(numeroCurtidas - 1)
+    }
   };
 
-  const valorContador = () => {
-    setNumeroCurtidas(false);
-    setNumeroCurtidas(numeroCurtidas + 1);
-  };
 
 
 
