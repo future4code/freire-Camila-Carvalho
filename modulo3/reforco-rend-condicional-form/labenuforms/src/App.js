@@ -3,6 +3,7 @@ import Etapa1 from './Components/Etapa1';
 import Etapa2 from './Components/Etapa2';
 import Etapa3 from './Components/Etapa3';
 import Final from './Components/Final';
+import styled from 'styled-components';
 
 
 

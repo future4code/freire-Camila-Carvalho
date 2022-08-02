@@ -27,19 +27,30 @@ function Etapa1(props) {
   return (
     <div>
         <h1>Etapa 1 - DADOS GERAIS</h1>
+        <p>1. Qual o seu nome? </p>
         <input
             value={nome}
             onChange={onChangeNome}
-        > 1. Qual o seu nome? </input>
+        />
+        <p> 2. Qual a sua idade </p>
         <input
-        > 1. Qual o sua idade? </input>
-        <input> 1. Qual o seu email? </input>
-        <select> 1. Qual o seu nível de escolaridade? </select>
-        <option>Ensino Médio incompleto</option>
-        <option>Ensino Médio completo</option>
-        <option>Ensino Superior incompleto</option>
-        <option>Pós-graduação incompleto</option>
-        <option>Pós-graduação</option>
+            value={idade}
+            onChange={onChangeIdade}
+        />
+        <p> 3. Qual o seu email? </p>
+        <input
+            value={email}
+            onChange={onChangeEmail}
+        />
+
+        <p>4. Qual o seu nível de escolaridade?</p>
+        <select value={selecione} onChange={onChangeSelecione} />
+        <option value="ensino medio incompleto">Ensino Médio incompleto</option>
+        <option value="ensino medio completo">Ensino Médio completo</option>
+        <option value="ensino superior incompleto">Ensino Superior incompleto</option>
+        <option value="ensino superior completo">Ensino Superior completo</option>
+        <option value="pós graduação incompleto">Pós-graduação incompleto</option>
+        <option value="pós graduação">Pós-graduação</option>
         
         <button onClick={ () => props.setEtapa(1)}>Próxima Etapa</button>
 
