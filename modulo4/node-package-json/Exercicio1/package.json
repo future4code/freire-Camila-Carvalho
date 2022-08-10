@@ -1,0 +1,17 @@
+{
+  "name": "node-package-json",
+  "version": "0.1.0",
+  "description": "exercicio 09-08",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js",
+    "name": "node ./index.js Camila 15"
+    
+  },
+  "keywords": [
+    "turna",
+    "freire"
+  ],
+  "author": "camila pinheiro",
+  "license": "ISC"
+}
