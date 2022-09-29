@@ -1,0 +1,29 @@
+ESTRUTURA DE DADOS
+
+    user
+        id
+        name
+        email
+        password            //mínimo 6 caracteres
+        recipes ?
+            idtitle
+            description
+            createdAt
+
+FUNCIONALIDADES MÍNIMAS
+
+NOME            INPUT                       OUTPUT
+
+signup          name, email, password       token
+
+login           email, password             token
+
+getProfile      token                       id, name, email
+
+getByUser       token, id                   id, name, email
+
+createRecipe    token, title, description
+
+getRecipeById   token, id                   id, title, description, createdAt
+
+
